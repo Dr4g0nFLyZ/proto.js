@@ -1,2 +1,2 @@
 # proto
-Web boilerplate (HTML/CSS/JS)
+Web framework (JS)
