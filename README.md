@@ -1,2 +1,2 @@
-# proto
+# proto.js
 Web framework (JS)
