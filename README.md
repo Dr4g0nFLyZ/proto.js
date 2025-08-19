@@ -1,2 +1,2 @@
 # proto.js
-Web framework (JS)
+Web framework (TS)
