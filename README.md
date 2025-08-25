@@ -1,2 +1,2 @@
 # proto.js
-Web framework (TS)
+Front-end + REST
