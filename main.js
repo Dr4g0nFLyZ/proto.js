@@ -1,13 +1,7 @@
-interface User {
-   id: number;
-   username: string;
-   email: string;
-}
-
-const user1: User = {
-   id: 1,
-   username: "johndoe",
-   email: "john.doe@example.com"
+var user1 = {
+    id: 1,
+    username: "johndoe",
+    email: "john.doe@example.com"
 };
 /*
 const user2: User = {
@@ -15,4 +9,4 @@ const user2: User = {
    username: "janedoe"
    // Error: Property 'email' is missing in type '{ id: number; username: string; }' but required in type 'User'.
 };
-*/
+*/ 
