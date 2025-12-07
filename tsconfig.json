@@ -1,0 +1,7 @@
+{
+   "compilerOptions": {
+      "outFile": "./build/proto.js",
+      "target": "es5",
+      "module": "amd"
+   }
+}
