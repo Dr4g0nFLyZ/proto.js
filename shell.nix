@@ -1,18 +1,17 @@
-# shell.nix
 { pkgs ? import <nixpkgs> {} }:
 
 pkgs.mkShell {
-   name = "ts-dev";
+  buildInputs = with pkgs; [
+    nodejs
+    typescript 
+    yarn
+    typescript-language-server
+  ];
 
-   nativeBuildInputs = [
-      pkgs.pkg-config
-   ];
-
-   buildInputs = with pkgs; [
-      typescript
-   ];
-
-   shellHook = ''
-      echo "Entering TypeScript development shell ($(tsc --version))"
-   '';
+  shellHook = ''
+    echo "Entering a reproducible TypeScript development shell (Node.js)"
+    # Example: Check versions upon entry
+    node --version
+    tsc --version
+  '';
 }
